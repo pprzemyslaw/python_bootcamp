@@ -15,12 +15,12 @@
 #1 Pobierz od uzytkownika imie i wzrost i wypisz w terminalu
 
 imie = input("Podaj Imie:")
-wzrost = input("Podaj Imie:")
+wzrost = input("Podaj wzrost:")
 print(f"Imie: {imie} \nWzrost {wzrost}")
 
 
 #2 zapytaj o długość podstawy i wysokosc trojkata i wypisz wyliczone pole
 podstawa = int(input("Podaj podstawe:"))
 wysokosc = int(input("Podaj wysokosc:"))
-poletrojkata = int(podstawa*wysokosc/2)
+poletrojkata = podstawa*wysokosc/2
 print("Pole trojkata: ", poletrojkata)
